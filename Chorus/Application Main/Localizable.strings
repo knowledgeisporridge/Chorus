@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Chorus
+
+  Created by Dan Wartnaby on 01/10/2019.
+  Copyright © 2019 Dan Wartnaby. All rights reserved.
+*/
+
+"network_error_malformed_url" = "URL is malformed or invalid and cannot be created by URL()";
+
+"error_no_lyrics_found" = "No Lyrics found.";
+
+"untitled" = "Untitled";
+
