@@ -40,7 +40,7 @@
 		F2470B7E23462E3D00B58EED /* LyricsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2470B7D23462E3D00B58EED /* LyricsService.swift */; };
 		F2470B8023462E6000B58EED /* WebLyricsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2470B7F23462E6000B58EED /* WebLyricsService.swift */; };
 		F2470B82234642B100B58EED /* Lyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2470B81234642B100B58EED /* Lyrics.swift */; };
-		F2470B8423464E6B00B58EED /* README in Resources */ = {isa = PBXBuildFile; fileRef = F2470B8323464E6B00B58EED /* README */; };
+		F2470B86234653DB00B58EED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2470B85234653DB00B58EED /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +91,7 @@
 		F2470B7D23462E3D00B58EED /* LyricsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricsService.swift; sourceTree = "<group>"; };
 		F2470B7F23462E6000B58EED /* WebLyricsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebLyricsService.swift; sourceTree = "<group>"; };
 		F2470B81234642B100B58EED /* Lyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lyrics.swift; sourceTree = "<group>"; };
-		F2470B8323464E6B00B58EED /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F2470B85234653DB00B58EED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		F2470B0123439D5B00B58EED = {
 			isa = PBXGroup;
 			children = (
-				F2470B8323464E6B00B58EED /* README */,
+				F2470B85234653DB00B58EED /* README.md */,
 				F2470B0C23439D5B00B58EED /* Chorus */,
 				F2470B2323439D5F00B58EED /* ChorusTests */,
 				F2470B0B23439D5B00B58EED /* Products */,
@@ -381,7 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2470B8423464E6B00B58EED /* README in Resources */,
+				F2470B86234653DB00B58EED /* README.md in Resources */,
 				F2470B592344D98B00B58EED /* Localizable.strings in Resources */,
 				F2470B432343D56F00B58EED /* Main.storyboard in Resources */,
 				F2470B1A23439D5E00B58EED /* LaunchScreen.storyboard in Resources */,

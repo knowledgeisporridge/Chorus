@@ -34,7 +34,8 @@ class ArtistViewController: UIViewController, StoryboardViewController {
     }
     
     func updateWordCount(count: Int = 0) {
-        statisticsLabel?.text = "\(count) Words. \(viewModel?.statistics() ?? "0 Tracks. 0 Releases.")"
+        let averagePerTrack = String(count / (viewModel?.allTracks().count ?? 1))
+        statisticsLabel?.text = "\(count) Words. \(averagePerTrack) averged over \(viewModel?.statistics() ?? "0 Tracks. 0 Releases.")"
     }
 }
 
